@@ -1,0 +1,66 @@
+.booking-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.schedule-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.slot-card {
+  display: grid;
+  gap: 8px;
+  min-height: 122px;
+  padding: 18px;
+  text-align: left;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 28px rgba(7, 29, 51, 0.08);
+  cursor: pointer;
+}
+
+.slot-card strong {
+  color: var(--navy);
+  font-family: Montserrat, sans-serif;
+}
+
+.slot-card span {
+  color: var(--muted);
+}
+
+.slot-card.active {
+  color: var(--white);
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
+.slot-card.active strong,
+.slot-card.active span {
+  color: var(--white);
+}
+
+.booking-form {
+  position: sticky;
+  top: 100px;
+}
+
+@media (max-width: 900px) {
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-form {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .schedule-board {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,93 @@
+.quote-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.quote-form,
+.booking-form {
+  display: grid;
+  gap: 16px;
+  padding: 26px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  color: var(--navy);
+  font-weight: 900;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 11px 12px;
+  color: var(--ink);
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.estimate-panel {
+  position: sticky;
+  top: 100px;
+  padding: 30px;
+  color: var(--white);
+  background:
+    linear-gradient(145deg, rgba(7, 29, 51, 0.98), rgba(13, 43, 70, 0.94)),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80") center / cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.panel-label {
+  color: var(--orange-2);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.estimate-panel strong {
+  display: block;
+  margin: 18px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.estimate-panel p {
+  color: #d7e4f1;
+}
+
+.mini-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.mini-list span {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 3px solid var(--orange);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 900px) {
+  .quote-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .estimate-panel {
+    position: static;
+  }
+}

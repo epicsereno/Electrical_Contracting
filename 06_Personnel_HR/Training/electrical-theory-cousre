@@ -1,0 +1,50 @@
+electrical-theory-course/
+├── README.md                  # Course overview, setup notes
+├── LICENSE                    # If sharing materials
+├── config/                    # Site/LMS settings, API keys (gitignored)
+├── public/                    # Live web files
+│   ├── index.html
+│   └── assets/                # (see below)
+├── src/                       # Source materials (your working files)
+├── content/                   # Core course content — organized by modules
+│   ├── module-01-fundamentals/
+│   │   ├── 01-introduction-to-electricity/
+│   │   │   ├── lesson.md
+│   │   │   ├── slides.pdf
+│   │   │   ├── video/
+│   │   │   ├── diagrams/
+│   │   │   └── quiz/
+│   │   ├── 02-ohms-law/
+│   │   ├── 03-series-parallel-circuits/
+│   │   └── ...
+│   ├── module-02-dc-circuits/
+│   ├── module-03-ac-theory/
+│   ├── module-04-magnetism-electromagnetism/
+│   ├── module-05-transformers/
+│   ├── module-06-motors-generators/
+│   ├── module-07-power-factor/
+│   ├── module-08-safety-grounding-bonding/   # Tie this heavily to NEC
+│   └── module-09-advanced-topics/
+├── assets/
+│   ├── images/                # Diagrams, photos from the field
+│   ├── videos/                # Raw or edited lesson videos
+│   ├── audio/                 # Voiceovers, podcasts
+│   ├── icons/
+│   ├── diagrams/              # SVG, high-res schematics (Tesla coil style vectors!)
+│   └── animations/            # Current flow, magnetic fields, etc.
+├── quizzes-exams/
+│   ├── module-01/
+│   ├── final-exam/
+│   └── answer-keys/           # (gitignored or protected)
+├── resources/
+│   ├── nec-references/        # Key code sections tied to theory
+│   ├── formulas-cheat-sheet.pdf
+│   ├── glossary.md
+│   ├── historical-readings/   # Tesla, Edison, Faraday
+│   └── tools-calculators/     # Links or embedded calculators
+├── student-portal/            # If building custom (submissions, progress)
+│   ├── uploads/
+│   └── certificates/
+├── instructor-only/           # Private: raw notes, future modules
+├── media/                     # Compressed versions for web
+└── docs/                      # Course syllabus, lesson plans, transcripts

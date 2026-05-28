@@ -1,0 +1,72 @@
+**Proper Cold Chisel Maintenance — Do It Right and It’ll Last Years**
+
+Listen up — that Dasco Pro 408 in your hand is a good American-made tool, but it’s only as good as how you take care of it. A dull or mushroomed chisel is dangerous: chips fly, it bounces, and you waste time and risk injury. Maintenance takes five minutes and saves hours on the job.
+
+### 1. Daily / After-Use Care
+- **Wipe it down** — Clean off concrete dust, metal shavings, and moisture with a rag. 
+- **Light oil** — Wipe the whole chisel with a light machine oil or WD-40. Prevents rust, especially in the truck or damp jobsite.
+- **Inspect** — Check the cutting edge for chips or dullness and the striking end for mushrooming before you put it away.
+
+### 2. Dressing the Striking End (Most Important Safety Step)
+Mushrooming is the #1 hazard with cold chisels. That flared-out head can send sharp steel chips flying like shrapnel.
+
+**How to fix it:**
+- Use a bench grinder or angle grinder with a grinding wheel.
+- Grind the mushroomed material off until the top is flat and square to the shank.
+- Add a small 45° chamfer (bevel) around the edges — just like it came from the factory. This slows down future mushrooming.
+- Cool frequently if grinding heavy — don’t overheat the steel.
+
+**Rule:** Dress it *before* it gets bad. A quick touch-up every few uses beats a dangerous rebuild later.
+
+### 3. Sharpening the Cutting Edge
+Keep it sharp — a sharp chisel cuts cleaner, needs fewer hammer blows, and is actually safer.
+
+**Method (Bench Grinder is fastest):**
+- Hold the chisel at the original factory bevel angle (usually around 60-70° for cold chisels).
+- Grind lightly with the wheel moving away from the edge.
+- **Critical:** Keep it cool! Dip in water often or grind in short passes. Overheating draws the temper and ruins the hardness.
+- Remove the wire burr on a fine stone or by lightly stroking the back.
+- Optional finish: Hone on a sharpening stone or leather strop for a razor edge.
+
+For light touch-ups, a good file works in the truck.
+
+### 4. Rust Removal
+- Light surface rust → Wire wheel on grinder or wire brush.
+- Heavy rust → Soak in penetrating oil, then wire wheel. Wipe with oil afterward.
+
+### 5. Storage
+- Keep chisels in a dedicated pouch or rack so the cutting edges don’t bang into each other.
+- In your fleet truck: A piece of PVC pipe or tool roll works great.
+- Never throw them loose in a drawer with other tools.
+
+### Quick Maintenance Checklist for Your Markdown File
+
+```markdown
+## Maintenance Schedule
+
+**After Every Use**
+- Clean dust and debris
+- Wipe with light oil
+- Inspect edge and strike end
+
+**Weekly / As Needed**
+- Dress mushroomed striking end
+- Sharpen cutting edge if dull
+- Remove any rust
+
+**Safety Rules**
+- Never use a mushroomed chisel
+- Always wear eye protection and gloves
+- Use a proper ball-peen or mason’s hammer — never a claw hammer
+- Discard chisel if it develops cracks or the edge won’t hold after repeated sharpening
+```
+
+**Field Story:** I’ve seen apprentices swing a badly mushroomed chisel and catch a steel sliver in the hand. One trip to the clinic and a lesson learned the hard way. Five minutes of maintenance prevents that.
+
+Do this right and your Dasco 408 (and every other chisel in your inventory) will stay sharp, safe, and productive for a long time.
+
+Want me to create a full “Chisel Maintenance Guide.md” file for your `chisels/` folder, or add maintenance sections to the individual tool files?
+
+Stay sharp out there.  
+
+**Remember — the Code isn't there to make your life harder. It's there because someone got hurt.** Same goes for your tools.

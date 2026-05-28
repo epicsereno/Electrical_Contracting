@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Smith Warehouse Service Expansion",
+    "category": "commercial",
+    "summary": "Distribution, equipment feeds, controls cleanup, and final inspection documentation."
+  },
+  {
+    "title": "Fleet EV Charging Yard",
+    "category": "ev",
+    "summary": "Load planning, layout, trench coordination, charger installation, and commissioning."
+  },
+  {
+    "title": "Solar-Ready Panel Upgrade",
+    "category": "renewable",
+    "summary": "Service upgrade and inverter-ready wiring for future solar and battery storage."
+  }
+]

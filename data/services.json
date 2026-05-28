@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Residential Electrical",
+    "category": "residential",
+    "startingRange": "$1,200-$3,500"
+  },
+  {
+    "name": "Commercial / Industrial",
+    "category": "commercial",
+    "startingRange": "$8,500-$42,000"
+  },
+  {
+    "name": "EV Charger Installation",
+    "category": "ev",
+    "startingRange": "$1,800-$9,500"
+  },
+  {
+    "name": "Solar & Renewable Energy",
+    "category": "renewable",
+    "startingRange": "$9,000-$48,000"
+  }
+]

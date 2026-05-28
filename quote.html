@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instant Quote | VoltMaster Electrical Contracting</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/quote.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">V</span><span><strong>VoltMaster</strong><small>Electrical Contracting</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="quote.html">Quote</a><a href="booking.html">Booking</a><a href="about.html">Credentials</a><a href="contact.html">Contact</a></nav>
+      <a class="header-call" href="tel:+15550191024">24/7 Emergency</a>
+    </header>
+    <main class="page-main">
+      <section class="page-hero quote-hero"><div class="shell"><p class="eyebrow">Instant quote request</p><h1>Build a practical electrical budget range before the site walk.</h1></div></section>
+      <section class="section shell quote-layout">
+        <form class="quote-form" id="quoteForm">
+          <label>Project type<select id="projectType" name="projectType"><option value="residential">Residential Electrical</option><option value="commercial">Commercial / Industrial</option><option value="smart">Smart Home Automation</option><option value="ev">EV Charger Installation</option><option value="solar">Solar & Renewable Energy</option><option value="generator">Generator / Backup Power</option><option value="emergency">Emergency Repair</option><option value="lighting">Lighting Design & Installation</option></select></label>
+          <label>Project size<select id="projectSize" name="projectSize"><option value="small">Small repair or single install</option><option value="medium">Multi-room or small facility</option><option value="large">Large facility or complex scope</option></select></label>
+          <label>Timeline<select id="timeline" name="timeline"><option value="standard">Flexible / standard schedule</option><option value="soon">Within 2 weeks</option><option value="urgent">Urgent or emergency</option></select></label>
+          <label>Budget range<select id="budget" name="budget"><option value="under5">Under $5,000</option><option value="5to25">$5,000-$25,000</option><option value="25to100">$25,000-$100,000</option><option value="over100">$100,000+</option></select></label>
+          <label>Project photos<input type="file" id="photos" name="photos" multiple accept="image/*"></label>
+          <label>Notes<textarea name="notes" rows="4" placeholder="Panel size, property type, access notes, preferred date"></textarea></label>
+          <button class="btn btn-primary" type="submit">Request Formal Quote</button>
+        </form>
+        <aside class="estimate-panel" aria-live="polite">
+          <span class="panel-label">Estimated planning range</span>
+          <strong id="estimateRange">$1,200-$3,500</strong>
+          <p id="estimateNote">A coordinator will verify site conditions, permit needs, utility requirements, and inspection timing.</p>
+          <div class="mini-list"><span>Includes dispatch review</span><span>Photo uploads accepted</span><span>No obligation</span></div>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="shell footer-grid"><div><strong>VoltMaster Electrical Contracting</strong><p>Fast estimates, formal proposals after scope review.</p></div><div><span>Dispatch</span><a href="tel:+15550191024">(555) 019-1024</a></div><div><span>Prefer a call?</span><a href="contact.html">Contact office</a></div></div></footer>
+    <script src="js/main.js"></script>
+    <script src="js/quote-calculator.js"></script>
+  </body>
+</html>

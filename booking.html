@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Booking | VoltMaster Electrical Contracting</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">V</span><span><strong>VoltMaster</strong><small>Electrical Contracting</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="quote.html">Quote</a><a href="booking.html">Booking</a><a href="about.html">Credentials</a><a href="contact.html">Contact</a></nav>
+      <a class="header-call" href="tel:+15550191024">24/7 Emergency</a>
+    </header>
+    <main class="page-main">
+      <section class="page-hero booking-hero"><div class="shell"><p class="eyebrow">Booking and scheduling</p><h1>Reserve a consultation, site walk, or emergency dispatch window.</h1></div></section>
+      <section class="section shell booking-layout">
+        <div class="schedule-board" id="scheduleBoard"></div>
+        <form class="booking-form">
+          <label>Selected window<input id="selectedSlot" name="selectedSlot" readonly value="Choose a time slot"></label>
+          <label>Service need<select><option>Consultation / site visit</option><option>Emergency repair</option><option>Inspection correction</option><option>Maintenance visit</option></select></label>
+          <label>Contact name<input name="name" autocomplete="name"></label>
+          <label>Phone<input name="phone" autocomplete="tel"></label>
+          <button class="btn btn-primary" type="submit">Request Booking</button>
+          <a class="btn btn-secondary" href="tel:+15550191024">Emergency Call</a>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="shell footer-grid"><div><strong>VoltMaster Electrical Contracting</strong><p>Site visits for accurate scope, sequencing, and safety planning.</p></div><div><span>Dispatch</span><a href="tel:+15550191024">(555) 019-1024</a></div><div><span>Estimate</span><a href="quote.html">Build quote</a></div></div></footer>
+    <script src="js/main.js"></script>
+    <script src="js/booking.js"></script>
+  </body>
+</html>

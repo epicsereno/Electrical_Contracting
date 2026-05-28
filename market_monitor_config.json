@@ -1,0 +1,53 @@
+{
+  "business_name": "Electrical Contracting Business Overview",
+  "report_timezone": "UTC",
+  "retention_days": 30,
+  "targets": [
+    {
+      "name": "electrical contracting California news",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=electrical+contracting+California",
+      "enabled": true
+    },
+    {
+      "name": "copper prices news",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=copper+prices",
+      "enabled": true
+    },
+    {
+      "name": "construction bid news news",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=construction+bid+news",
+      "enabled": true
+    }
+  ],
+  "email": {
+    "enabled": false,
+    "sender_env": "REPORT_EMAIL_FROM",
+    "smtp_host_env": "SMTP_HOST",
+    "smtp_port_env": "SMTP_PORT",
+    "smtp_username_env": "SMTP_USERNAME",
+    "smtp_password_env": "SMTP_PASSWORD",
+    "smtp_use_tls": true,
+    "recipients": [
+      "owner@example.com"
+    ]
+  },
+  "google_sheets": {
+    "enabled": false,
+    "spreadsheet_id": "replace-with-google-sheet-id",
+    "worksheet_name": "Daily Market Monitor",
+    "service_account_json_env": "GOOGLE_SERVICE_ACCOUNT_JSON"
+  },
+  "html_target_template": {
+    "enabled": false,
+    "name": "Example HTML target",
+    "type": "html",
+    "url": "https://example.com",
+    "item_selector": "article",
+    "title_selector": "h2",
+    "link_selector": "a",
+    "summary_selector": "p"
+  }
+}
